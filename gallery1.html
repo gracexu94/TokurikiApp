@@ -26,9 +26,23 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+        <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+    <!--<script> //paste this code under head tag or in a seperate js file.
+    	// Wait for window load
+    	$(window).load(function() {
+    		// Animate loader off screen
+    		$(".se-pre-con").delay(2000).fadeOut("fast");;
+    	});</script>-->
 </head>
 
 <body>
+    <!--preloader-->
+    <!--<div class="se-pre-con"></div>-->
     <!-- Page Content -->
     <div class="container">
 
@@ -45,7 +59,7 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-3 portfolio-item">
-                <a href="prints/1.gif" data-lightbox="set" data-title="caption here">
+                <a href="prints/1.gif" data-lightbox="set" data-title="<a href='mapindex.html'>Click to view on map</a>. More text.">
                     <img class="img-responsive" src="prints/1.gif" alt="">
                 </a>
             </div>
@@ -148,9 +162,6 @@
         <!-- /.row -->
     </div>
     <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
