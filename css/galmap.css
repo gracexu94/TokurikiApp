@@ -14,7 +14,7 @@ html,body{
 }
 
 body{
-  	padding-top:38px; /*padding for navbar*/
+  	padding-top:10px; /*padding for navbar*/
     background: #dfdfdf;
     color: black;
 }
@@ -36,11 +36,11 @@ body{
     height:calc(100% - 0);
     position:absolute;
     right:16px;
-    top:38px;
+    top:0px;
     bottom:0;
     overflow:hidden;
 }
 
-.navbar-xs { min-height:30px; height: 30px; }
+/*.navbar-xs { min-height:30px; height: 30px; }
 .navbar-xs .navbar-brand{ padding: 0px 12px;font-size: 16px;line-height: 30px; }
-.navbar-xs .navbar-nav > li > a {  padding-top: 0px; padding-bottom: 0px; line-height: 30px; }
+.navbar-xs .navbar-nav > li > a {  padding-top: 0px; padding-bottom: 0px; line-height: 30px; }*/
